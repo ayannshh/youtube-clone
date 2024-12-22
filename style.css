@@ -1,0 +1,320 @@
+body{
+    background-color: #0F0F0F;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+p
+{
+    font-family: Roboto,Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.page-left
+{
+    width: 4%;
+    background-color: #0F0F0F;
+    height: 100%;
+}
+.page-right
+{
+    width: 96%;
+    height: 100%;
+}
+
+.news
+{
+    display: inline-block;
+        width: 350px;
+        margin-left: 10px;
+        vertical-align: top;
+        background-color: #212121;
+        border: solid;
+        margin-top: 50px;
+        height: 200px;
+        border-radius: 20px;
+        border: 1px solid rgb(110, 107, 107);
+}
+
+.newsimage
+{
+    display: inline-block;
+    border-radius: 50px;
+    height: 25px;
+    vertical-align: top;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.newsline
+{
+    color: white;
+    font-weight: 400;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.ans
+{
+    margin-left: 15px;
+    margin-top: 5px;
+    border-radius: 15px;
+    color: skyblue;
+    border: 1px solid rgb(110, 107, 107);
+    background-color: #212121;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.responce
+{
+    color: #AAAAAA;
+        font-weight: 400;
+        margin-top: 15px;
+        margin-left: 15px;
+}
+
+.newsimg{
+    height: 30px;
+    border-radius: 50px;
+}
+.newsowner
+{
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+    color: #AAAAAA;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.thumbnail
+{
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 13px;
+}
+
+/* .info
+{
+    margin-top: 10px;
+} */
+
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.description {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    margin-top: 10px;
+    /* Corrected syntax */
+}
+
+.title
+{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    margin-bottom: 5.5px;
+    color: white;
+    font-weight: 400;
+}
+.owner,
+.views
+{
+    
+    font-size: 13.5px;
+    color: grey;
+    font-weight: 90px;
+}
+.owner
+{
+    margin-bottom: 4.5px;
+}
+
+.box
+{
+    display: inline-block;
+    width: 350px;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.ppimg
+{
+    border-radius: 100px;
+}
+
+.ppimg
+{
+    width: 50px;
+}
+
+/* header file */
+.header
+{
+    height: 60px;
+    display: flex;
+    flex-direction:row;
+}
+
+.left-section
+{
+    width: 600px;
+    padding-left: 0px;
+}
+.middle-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-right: 400px;
+    padding-left: 500px;
+}
+
+.searchbar {
+    width: 400px;
+    height: 30px;
+    background-color: #202020;
+    color: white;
+    border: 1px solid #3a3a3a;
+    border-radius: 20px;
+    padding-left: 50px;
+    font-size: 16px;
+    outline: none;
+    transition: background-color 0.3s;
+    margin-bottom: 65px;
+}
+
+.searchbar::placeholder {
+    color: #b0b0b0;
+}
+
+.searchbar:focus {
+    background-color: #333;
+    border-color: #3f8efc;
+}
+
+.searchbar::before {
+    content: '\f002';
+    font-family: 'FontAwesome';
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #b0b0b0;
+    font-size: 18px;
+    pointer-events: none;
+}
+.right-section
+{
+    width: 600px;
+    /* padding-left: 30px; */
+}
+
+.mic
+{
+    height: 50px;
+    padding-bottom: 60px;
+}
+
+.header2
+{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading
+{
+    background-color: #3D3D3D;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 400;
+    /* width: 100px; */
+    font-stretch: expanded;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.heading1
+{
+    color: white;
+    padding-top: 4px;
+    padding-right: 10px;
+    font-weight: 400;
+}
+
+.heading2
+{
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+        padding-right: 10px;
+}
+
+.logoyoutube
+{
+    height: 50px;
+}
+
+.screenshot
+{
+    height: 50px;
+}
+
+.menu
+{
+   
+    height: 50px;
+    margin-left: 9px;
+}
+
+.home
+{
+
+        height: 60px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+}
+
+.shorts
+{
+        height: 60px;
+        margin-bottom: 20px;
+        margin-left: 8px;
+}
+
+.subs
+{
+        height: 60px;
+        margin-bottom: 20px;
+}
+
+
+.you
+{
+        height: 60px;
+        margin-bottom: 20px;
+}
+
+.download
+{
+        height: 60px;
+        margin-bottom: 20px;
+}
+
+.noti
+{
+    height: 60px;
+    color: white;
+    margin-top: 50px;
+    font-weight: 500;
+    background-color: #3f8efc;
+    display: inline-block;
+}
